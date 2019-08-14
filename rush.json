@@ -46,7 +46,7 @@
      * The default value is false to avoid legacy compatibility issues.
      * It is strongly recommended to set strictPeerDependencies=true.
      */
-    "strictPeerDependencies": true,
+    "strictPeerDependencies": true
 
 
     /**
@@ -120,8 +120,8 @@
    * To remove these restrictions, you could set projectFolderMinDepth=1
    * and set projectFolderMaxDepth to a large number.
    */
-  // "projectFolderMinDepth": 2,
-  // "projectFolderMaxDepth": 2,
+  "projectFolderMinDepth": 1,
+  "projectFolderMaxDepth": 2,
 
   /**
    * This feature helps you to review and approve new packages before they are introduced
@@ -144,7 +144,6 @@
      * or you could just have a single category called "default".
      */
     "reviewCategories": [
-      // Some example categories:
       "production", // projects that ship to production
       "libraries"   // library projects that ship
     ],
@@ -193,7 +192,7 @@
      * you might configure your system's trigger to look for a special string such as "[skip-ci]"
      * in the commit message, and then customize Rush's message to contain that string.
      */
-    // "versionBumpCommitMessage": "Applying package updates. [skip-ci]"
+    "versionBumpCommitMessage": "Applying package updates. [skip-ci]"
   },
 
   "repository": {
@@ -301,13 +300,13 @@
   "projects": [
     {
       "packageName": "project-a",
-      "projectFolder": "./projectA",
+      "projectFolder": "projectA",
       "reviewCategory": "libraries",
       "shouldPublish": true
     },
     {
       "packageName": "project-b",
-      "projectFolder": "./projectB",
+      "projectFolder": "projectB",
       "reviewCategory": "libraries",
       "shouldPublish": true
     }
