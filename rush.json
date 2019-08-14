@@ -302,11 +302,13 @@
   "projects": [
     {
       "packageName": "project-a",
-      "projectFolder": "./projectA"
+      "projectFolder": "./projectA",
+      "versionPolicyName": "PublishPolicy"
     },
     {
       "packageName": "project-b",
-      "projectFolder": "./projectB"
+      "projectFolder": "./projectB",
+      "versionPolicyName": "PublishPolicy"
     }
     // {
     //   /**
