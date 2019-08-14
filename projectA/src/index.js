@@ -1,3 +1,3 @@
-const myMessage = "Yolo3!";
+const myMessage = "Yolo4!";
 
 console.log(myMessage);
