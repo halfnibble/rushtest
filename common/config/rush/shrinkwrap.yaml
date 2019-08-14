@@ -1,0 +1,24 @@
+dependencies:
+  '@rush-temp/project-a': 'file:projects/project-a.tgz'
+  '@rush-temp/project-b': 'file:projects/project-b.tgz'
+packages:
+  'file:projects/project-a.tgz':
+    dev: false
+    name: '@rush-temp/project-a'
+    resolution:
+      integrity: sha512-aBwuRneEzIftYVapdJZepwAjjtUK1jWnd6pMCfTQprMDUmQUMFeu5wsdyi/D1KPw1Qv+h/cZoXgxuAez2Sa+VQ==
+      tarball: 'file:projects/project-a.tgz'
+    version: 0.0.0
+  'file:projects/project-b.tgz':
+    dev: false
+    name: '@rush-temp/project-b'
+    resolution:
+      integrity: sha512-fPdiHIow7kMAY0MU0A4AKB1MkyQgobN3v1ldY4lBxS8QxHV/lMzxVFRhmhKSZGNO3qwN/MWDwRWGV3eFrpfl9w==
+      tarball: 'file:projects/project-b.tgz'
+    version: 0.0.0
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@rush-temp/project-a': 'file:./projects/project-a.tgz'
+  '@rush-temp/project-b': 'file:./projects/project-b.tgz'

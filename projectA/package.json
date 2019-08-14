@@ -1,0 +1,12 @@
+{
+  "name": "project-a",
+  "version": "1.0.0",
+  "description": "Testing rush features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Building...done\""
+  },
+  "author": "Joshua Wedekind",
+  "license": "MIT"
+}
