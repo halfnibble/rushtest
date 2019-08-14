@@ -1,1 +1,1 @@
-const myMessage = "Yo everybody!";
+const myMessage = "Yolo!";
