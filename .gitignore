@@ -64,3 +64,5 @@ package-deps.json
 
 # Mac
 .DS_Store
+
+# VS Code
