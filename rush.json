@@ -303,12 +303,12 @@
     {
       "packageName": "project-a",
       "projectFolder": "./projectA",
-      "versionPolicyName": "PublishPolicy"
+      "shouldPublish": true
     },
     {
       "packageName": "project-b",
       "projectFolder": "./projectB",
-      "versionPolicyName": "PublishPolicy"
+      "shouldPublish": true
     }
     // {
     //   /**
