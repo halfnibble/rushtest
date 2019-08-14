@@ -1,4 +1,4 @@
-const myMessage = "Yolo!";
+const myMessage = "Yolo2!";
 
 debugger;
 
