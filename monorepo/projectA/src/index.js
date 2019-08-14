@@ -1,3 +1,3 @@
-const myMessage = "Yolo4!";
+const myMessage = "Significant change!";
 
 console.log(myMessage);
