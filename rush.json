@@ -303,11 +303,13 @@
     {
       "packageName": "project-a",
       "projectFolder": "./projectA",
+      "reviewCategory": "libraries",
       "shouldPublish": true
     },
     {
       "packageName": "project-b",
       "projectFolder": "./projectB",
+      "reviewCategory": "libraries",
       "shouldPublish": true
     }
     // {
